@@ -265,12 +265,12 @@
 		};
 		sata1-blue-led {
 			label = "wdmcex2u:blue:hdd1";
-			gpios = <&gpio1 21 GPIO_ACTIVE_HIGH>;
+			gpios = <&gpio1 21 GPIO_ACTIVE_LOW>;
 			default-state = "keep";
 		};
 		sata2-blue-led {
 			label = "wdmcex2u:blue:hdd2";
-			gpios = <&gpio1 22 GPIO_ACTIVE_HIGH>;
+			gpios = <&gpio1 22 GPIO_ACTIVE_LOW>;
 			default-state = "keep";
 		};
 	};
